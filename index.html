@@ -3,7 +3,7 @@
 
 <style id="webmakerstyle">
 .jjja {
-   visibility: hidden;
+   
 }
    #ender {
    background: linear-gradient(to bottom, #33cc33 17%, #0066ff 100%);
@@ -96,7 +96,7 @@ input[type=text] {
 }
 </style>
 </head>
-<body class="hhha">
+<body class="hhha" id="hhha">
 
 
 
@@ -123,6 +123,7 @@ input[type=text] {
     document.getElementById('hhh').style.visibility='hidden';
     document.getElementById('Searchtheweb').style.visibility='hidden';
     document.getElementById("gg").style.visibility = "hidden";
+   document.getElementById("jjja").style.visibility = "hidden";
   }
   window.onload = onLoadFunctions;
 var badWords = ["badword1", "badword2", "badword3"];
@@ -175,13 +176,13 @@ function g() {
 
 //# sourceURL=userscript.js
    function z(){
- $(".jjja").show();
-    $(".hhha").hide();
+ document.getElementById("jjja").style.visibility = "visible";
+      document.getElementById("hhha").style.visibility = "hidden";
    }
 </script>
 </body>
 <body>
-   <div class="jjja">
+   <div class="jjja" id="jjja">
    <button class="c-button">[ PLAY FULLSCREEN ]</button>
 <style>
 .c-button {
