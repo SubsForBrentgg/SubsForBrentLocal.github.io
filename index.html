@@ -106,83 +106,7 @@ input[type=text] {
   <div class="glitch-wrapper">
    <div class="glitch" data-text="Nytronic web">Nytronic web</div>
     </div>
-<div id="ender">
-<button id="load" type="submit" onclick="yesy()">Go to the web</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button onclick="z()" id="load2" type="submit">Games</button>
-  <input type="text" value="" id="Searchtheweb" placeholder="Search...(Who made this?) or (list) of searches.">
-  <button id="hhh" onclick="epic()" type="submit">Enter</button>
-  <p id="add"></p>
-  <button id="soup" onclick="s() " type="submit">Dog images</button>
-  <button id="gg" onclick="g()" type="submit">Dog info</button>
-</div>
-
-
-
-<script> function onLoadFunctions() {
-   
-    document.getElementById('soup').style.visibility='hidden';
-    document.getElementById('hhh').style.visibility='hidden';
-    document.getElementById('Searchtheweb').style.visibility='hidden';
-    document.getElementById("gg").style.visibility = "hidden";
-   document.getElementById("jjja").style.visibility = "hidden";
-  }
-  window.onload = onLoadFunctions;
-var badWords = ["badword1", "badword2", "badword3"];
-
-function yesy() {
-    document.getElementById('hhh').style.visibility='visible';
-    document.getElementById('Searchtheweb').style.visibility='visible'; 
-    document.getElementById('load').style.visibility='hidden';
-     document.getElementById('load2').style.visibility='hidden';
-     document.getElementById("load").disabled = true;
-     document.getElementById("load2").disabled = true;
-  }
-  
- function epic() {
-  var letter = document.getElementById("Searchtheweb").value;
-  var text;
-  if (letter === "Who made this?") {
-     const element = document.getElementById("add");
-  element.innerHTML = "The epic man Nytro(SubsForBrent)";
-    document.getElementById('soup').style.visibility='hidden';
-  document.getElementById("gg").style.visibility = "hidden";
-    
-  }
-  if (letter === "list") {
-     const element = document.getElementById("add");
-  element.innerHTML = "1) Who made this? 2) list 3) dogs";
-    document.getElementById('soup').style.visibility='hidden';
-    document.getElementById("gg").style.visibility = "hidden";
-  }
-   if (letter === "") {
-     const element = document.getElementById("add");
-  element.innerHTML = "info will be here";
-    document.getElementById('soup').style.visibility='hidden';
-    document.getElementById("gg").style.visibility = "hidden";
-  }
-   if (letter === "dogs") {
-     const elemente = document.getElementById("soup");
-     document.getElementById("soup").style.visibility = "visible";
-document.getElementById("gg").style.visibility = "visible";
-  element.innerHTML = "";
-  }
-}
-function s() {
-  
-}
-function g() {
-  
-}
-
-
-//# sourceURL=userscript.js
-   function z(){
- document.getElementById("jjja").style.visibility = "visible";
-      document.getElementById("hhha").style.visibility = "hidden";
-   }
-</script>
-</body>
-<body>
-   <div class="jjja" id="jjja">
+    <div class="jjja" id="jjja">
    <button class="c-button">[ PLAY FULLSCREEN ]</button>
 <style>
 .c-button {
@@ -261,4 +185,78 @@ border-color: #fff;
         }
     </script> 
    </div>
+<div id="ender">
+<button id="load" type="submit" onclick="yesy()">Go to the web</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button onclick="z()" id="load2" type="submit">Games</button>
+  <input type="text" value="" id="Searchtheweb" placeholder="Search...(Who made this?) or (list) of searches.">
+  <button id="hhh" onclick="epic()" type="submit">Enter</button>
+  <p id="add"></p>
+  <button id="soup" onclick="s() " type="submit">Dog images</button>
+  <button id="gg" onclick="g()" type="submit">Dog info</button>
+</div>
+
+
+
+<script> function onLoadFunctions() {
+   
+    document.getElementById('soup').style.visibility='hidden';
+    document.getElementById('hhh').style.visibility='hidden';
+    document.getElementById('Searchtheweb').style.visibility='hidden';
+    document.getElementById("gg").style.visibility = "hidden";
+   document.getElementById("jjja").style.visibility = "hidden";
+  }
+  window.onload = onLoadFunctions;
+var badWords = ["badword1", "badword2", "badword3"];
+
+function yesy() {
+    document.getElementById('hhh').style.visibility='visible';
+    document.getElementById('Searchtheweb').style.visibility='visible'; 
+    document.getElementById('load').style.visibility='hidden';
+     document.getElementById('load2').style.visibility='hidden';
+     document.getElementById("load").disabled = true;
+     document.getElementById("load2").disabled = true;
+  }
+  
+ function epic() {
+  var letter = document.getElementById("Searchtheweb").value;
+  var text;
+  if (letter === "Who made this?") {
+     const element = document.getElementById("add");
+  element.innerHTML = "The epic man Nytro(SubsForBrent)";
+    document.getElementById('soup').style.visibility='hidden';
+  document.getElementById("gg").style.visibility = "hidden";
+    
+  }
+  if (letter === "list") {
+     const element = document.getElementById("add");
+  element.innerHTML = "1) Who made this? 2) list 3) dogs";
+    document.getElementById('soup').style.visibility='hidden';
+    document.getElementById("gg").style.visibility = "hidden";
+  }
+   if (letter === "") {
+     const element = document.getElementById("add");
+  element.innerHTML = "info will be here";
+    document.getElementById('soup').style.visibility='hidden';
+    document.getElementById("gg").style.visibility = "hidden";
+  }
+   if (letter === "dogs") {
+     const elemente = document.getElementById("soup");
+     document.getElementById("soup").style.visibility = "visible";
+document.getElementById("gg").style.visibility = "visible";
+  element.innerHTML = "";
+  }
+}
+function s() {
+  
+}
+function g() {
+  
+}
+
+
+//# sourceURL=userscript.js
+   function z(){
+ document.getElementById("jjja").style.visibility = "visible";
+      document.getElementById("hhha").style.visibility = "hidden";
+   }
+</script>
 </body></html>
